@@ -1,0 +1,10 @@
+-std=c++17
+-I../base/pin/source/include/pin
+-I../base/pin/source/include/pin/gen
+-I../base/pin/intel64/pinrt/include/adaptor
+-I../base/pin/extras/components/include
+-I../base/pin/extras/xed-intel64/include/xed
+-I../base/pin/source/tools/Utils
+-DHOST_AMD64
+-DTARGET_IA32E
+-m64

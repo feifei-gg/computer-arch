@@ -1,0 +1,17 @@
+In this folder you have 4 PARSEC benchmarks and 2 SPLASH2 benchmarks:
+    * blackscholes 
+    * bodytrack
+    * ferret 
+    * fluidanimate
+    * cholesky
+    * fft
+
+If you look at the bash scripts (*.sh files), you will see how they call different binaries on different datasets.
+Parsec and Splash2 benchmarks offer datasets of different sizes- you might want instrument binaries with larger
+datasets, and run simulations on smaller datasets. 
+
+Right now, all the scripts are using the smallest dataset available.
+By uncommenting other lines, you can run the benchmarks on full datasets.
+
+If you are interested in what these benchmarks are doing, you can learn so here:
+http://parsec.cs.princeton.edu/download/tutorial/2.0/parsec-2.0-tutorial.pdf
